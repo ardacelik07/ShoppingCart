@@ -27,6 +27,6 @@ So we can think that megaventory client is act like a genericrepository.<br/>
 I have to controllers for every model that ı wanna send request. 
 
 ## Note
-Actually I almost finished the project saturday evening. I add the all entities that with my simple web application. I realized that it stopped to add When ı was working on ordersales part. it is giving me error that :  "An API key should be supplied with your request. You supplied an empty API key. To get an API key you should create an account at megaventory.com". but ı didnt make any changes on my code and everything was working.I  read documentations debug the code etc.nevertheless I couldnt find the mistake ,I just couldnt add order because of this error but in my code ordersales is also ready.
+Actually I almost finished the project saturday evening. I add the all entities that with my simple web application. I realized that it stopped to add When ı was working on ordersales part. it is giving me error that :  "An API key should be supplied with your request. You supplied an empty API key. To get an API key you should create an account at megaventory.com". but ı didnt make any changes on my code and everything was working.I  read documentations debug the code etc.nevertheless I couldnt find the mistake ,I just couldnt add order because of this error but in my code ordersales part is also ready.
 
 
