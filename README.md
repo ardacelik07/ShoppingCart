@@ -15,7 +15,7 @@ IMegaventoryModel that the main interface all other updatemodels and megaventory
 <br/>this is the layer that acts as a middleware.(repository)<br/>
 <br/> this class  has two folder that ConcreteClient and IClient.<br/>
 <br/>I just only have interface called IClient in the IClients folder.<br/>
-<br/>it is a generic interface and include models. there is only Insert method sign in this interface.<br/>
+<br/>it is a generic interface and include models. there is only insert method sign in this interface.<br/>
 <br/>I have BaseClient and MegaventoryClient in the concrete client folder.<br/>
 <br/>I am making new httpclient object in this class and MegaventoryClient inherit this class.<br/>
 <br/>I only made MegaventoryClient class because of we dont need a spesific methods for every model.<br/>
