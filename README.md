@@ -18,9 +18,10 @@ IMegaventoryModel that the main interface all other updatemodels and megaventory
 <br/>it is a generic interface and include models. there is only insert method sign in this interface.<br/>
 <br/>I have BaseClient and MegaventoryClient in the concrete client folder.<br/>
 <br/>I am making new httpclient object in this class and MegaventoryClient inherit this class.<br/>
+<br/>I am generally making  genericrepository for CRUD operation in my projects
+so we can think that megaventory client is act like a genericrepository.<br/>
 <br/>I only made MegaventoryClient class because of we dont need a spesific methods for every model.<br/>
-<br/>I am generally making  genericrepository for CRUD operation in my projects.
-So we can think that megaventory client is act like a genericrepository.<br/>
+<br/>if I had spesific methods for models.I would make EntityClients for every each entity and inherit the MegaventoryClient for CRUD general operations.<br/>
 <br/>MegaventoryClientClass has the only insert model.it is making http post request to megaventory api.
 
 ## Controller layer.
