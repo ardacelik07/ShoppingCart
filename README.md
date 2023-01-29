@@ -19,7 +19,7 @@ IMegaventoryModel that the main interface all other updatemodels and megaventory
 <br/>I have BaseClient and MegaventoryClient in the concrete client folder.<br/>
 <br/>I am making new httpclient object in this class and MegaventoryClient inherit this class.<br/>
 <br/>I only made MegaventoryClient class because of we dont need a spesific methods for every model.<br/>
-<br/>I am generally making  genericrepository for crud operation in my projects.
+<br/>I am generally making  genericrepository for CRUD operation in my projects.
 So we can think that megaventory client is act like a genericrepository.<br/>
 <br/>MegaventoryClientClass has the only insert model.it is making http post request to megaventory api.
 
