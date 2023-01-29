@@ -5,9 +5,9 @@
 <br/>I could use solutions when ı add the layers. But ı prefer to keep it simple and ı just add folders to one solution.<br/>
 <br/> models layer has the mventities,MegaventoryHttpModels and my Dto's. <br/>
 <br/>I made update models for the every entity that ı wanted to insert.<br/>
-<br/>They have properties that T entity object,mvrecord and apikey.
-the basehttpmodel that only have apikey the other all updatemodels inherit this class and the<br/>
-<br/>IMegaventoryModel that the main interface all other updatemodels and megaventorybasehttpmodel inherit that class.<br/>
+<br/>They have properties that T entity object,mvrecord and apikey.<br/>
+the basehttpmodel that only have apikey the other all updatemodels inherit this class and the
+IMegaventoryModel that the main interface all other updatemodels and megaventorybasehttpmodel inherit that class.<br/>
 <br/>I used that interface because ı wanted to make my code clean and use the oop best practise (polimorfizm).<br/>
 
 ## Client layer
