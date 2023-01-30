@@ -31,10 +31,11 @@ namespace ShoppingCart.Controllers
                 var newSalesOrder = new mvSalesOrder()
                 {
                     SalesOrderClientID = SalesOrder.SalesOrderClientID,
-                    SalesOrderDetails = new SalesOrderDetail(SalesOrder.SalesOrderRowDiscountID, SalesOrder.SalesOrderRowProductID, SalesOrder.SalesOrderRowTaxID),
+                    SalesOrderTypeId= SalesOrder.SalesOrderTypeId,
+                    SalesOrderDetails = new SalesOrderDetail(SalesOrder.SalesOrderRowDiscountID, SalesOrder.SalesOrderRowProductID, SalesOrder.SalesOrderRowTaxID,SalesOrder.SalesOrderRowProductSKU,SalesOrder.SalesOrderRowQuantity),
                     
 
-                        
+                         SalesOrderStatus= SalesOrder.SalesOrderStatus,
    
                     SalesOrderInventoryLocationID = SalesOrder.SalesOrderInventoryLocationID,
                   

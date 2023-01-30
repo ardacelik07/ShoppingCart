@@ -7,5 +7,9 @@
 
         public SalesOrderDetail SalesOrderDetails { get; set; }
         public int SalesOrderInventoryLocationID { get; set; }
+
+        public string SalesOrderStatus { get; set; }
+
+        public int SalesOrderTypeId { get; set; }
     }
 }

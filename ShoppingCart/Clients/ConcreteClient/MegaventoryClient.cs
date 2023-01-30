@@ -46,10 +46,22 @@ namespace ShoppingCart.Clients.ConcreteClient
             
             try
             {
-                var response = await client.PostAsJsonAsync("https://api.megaventory.com/v2017a" + uri, t);
-              var contents = await response.Content.ReadAsStringAsync();
-              System.Diagnostics.Debug.WriteLine(contents);
-              return true;
+
+                
+                var json = JsonConvert.SerializeObject(t);
+                var data = new StringContent(json, Encoding.UTF8, "application/json");
+
+                var url = "https://api.megaventory.com/v2017a" + uri;
+                using var client = new HttpClient();
+
+                var response = await client.PostAsync(url, data);
+
+                var result = await response.Content.ReadAsStringAsync();
+
+                System.Diagnostics.Debug.WriteLine(result);
+                return true; 
+                
+               
 
             }
             catch {}
